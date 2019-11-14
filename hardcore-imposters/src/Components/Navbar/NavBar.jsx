@@ -1,13 +1,15 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 
-import "./NavBar.scss"
+import "./NavBar.scss";
+
+import Logo from "./logoyo.png";
 
 class NavBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            message:'Hardcore Imposters',
+            // message:'Hardcore Imposters',
             url: ''
         };
     }
@@ -21,7 +23,9 @@ class NavBar extends Component {
        return(
         <div className="nav-bar">
         {console.log("NavBar props yo sonnn",this.props)}
-
+        <div className="logoDiv">
+            <img src={Logo} className="logo"></img>
+        </div>
         <h1>{this.state.message}</h1>
         
             <Link to="/" className="nav-item">Home</Link> {' '}

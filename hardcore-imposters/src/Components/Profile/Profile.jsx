@@ -11,7 +11,7 @@ class Profile extends Component {
         console.log("Profile Component")
         return(
             <div>
-                helo
+                🦡 🦡 🦡 🍄  🦡 🦡 🦡 🍄🍄🍄
             </div>
         )
     }

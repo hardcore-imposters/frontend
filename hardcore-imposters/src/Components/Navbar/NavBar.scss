@@ -11,12 +11,25 @@ $border:1px solid $borderColor;
     display:flex;
     justify-content: space-around;
     width: 100%;
-    @include border;
+    // @include border;
+    background-color: #282c34;
 }
 .nav-item{
     text-decoration: none;
     color: white;
     display: flex;
     align-items: center;
-    
+    font-size: 16px;
+}
+
+.logoDiv {
+    width: 120px;
+}
+
+.logo {
+    display:flex;
+    width: 100%;
+    margin-right: -50%;
+    margin-top: 1.5%;
+    margin-left: -5%;
 }

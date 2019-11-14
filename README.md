@@ -21,11 +21,15 @@ Rules of the world:
     
   [] Wallet/Treasure chest
     [] put things in it
-    
+    /////
 
 
-    git commit -m "Added hedgehogs because duh, 
+    git commit -m "Navbar component plus styling, starting on profile component 
 
 
-Co-authored-by: Winnie <48748065+windixxie@users.noreply.github.com>
+Co-authored-by: James <15709701+Shadowborn@users.noreply.github.com>
 "
+
+ James <15709701+Shadowborn@users.noreply.github.com>
+
+ Winnie <48748065+windixxie@users.noreply.github.com>
