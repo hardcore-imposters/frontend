@@ -22,3 +22,10 @@ Rules of the world:
   [] Wallet/Treasure chest
     [] put things in it
     
+
+
+    git commit -m "Added hedgehogs because duh, 
+
+
+Co-authored-by: Winnie <48748065+windixxie@users.noreply.github.com>
+"

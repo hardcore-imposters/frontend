@@ -1,0 +1,22 @@
+
+$red: red;
+$blue: blue;
+$borderColor: $blue;
+$border:1px solid $borderColor;
+@mixin border {
+    border: $border;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    @include border;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
